@@ -1,8 +1,8 @@
-# Sistema de Gerenciamento de Tarefas
+# Desafio (PHP/Laravel)
 
 ## Visão Geral
 
-Este é um sistema de gerenciamento de tarefas desenvolvido para facilitar o cadastro de usuários e o acompanhamento de suas informações.
+Este é um sistema de gerenciamento de tarefas desenvolvido para facilitar o cadastro de usuários e o acompanhamento de suas informações..
 
 ## Principais Recursos
 
@@ -38,9 +38,6 @@ O banco de dados MySQL é utilizado para armazenar e gerenciar todas as informa�
 2. **Visualização, Edição, Exclusão e Atualização:**
    - Os usuários podem visualizar, editar, excluir e atualizar suas informações cadastradas a qualquer momento.
 
-## Notificações e Colaboração
-
-[A ser preenchido conforme necessário]
 
 ## Conclusão
 
