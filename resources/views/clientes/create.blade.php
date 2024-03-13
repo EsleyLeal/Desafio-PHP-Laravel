@@ -2,7 +2,6 @@
 
 @section('titulo', 'Area de Cadastro')
 @section('content')
-    {{-- <h1>Cadastrar Cliente</h1> --}}
 
     <div class="box">
         <div class="img-box">

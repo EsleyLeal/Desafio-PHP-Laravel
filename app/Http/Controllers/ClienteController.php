@@ -57,17 +57,19 @@ class ClienteController extends Controller
     $cliente->update($request->except('foto'));
 
     if ($request->hasFile('foto')) {
-        
-        if ($cliente->foto) {
+        $novaFoto = $request->file('foto')->store('clientes', 'public');
+
+        if ($novaFoto) {
+            
             Storage::disk('public')->delete($cliente->foto);
+            $cliente->foto = $novaFoto;
+            $cliente->save();
         }
-        
-        $cliente->foto = $request->file('foto')->store('clientes', 'public');
-        $cliente->save();
     }
 
     return redirect()->route('clientes.index');
 }
+
 
 
 
