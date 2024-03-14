@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-Este é um sistema de gerenciamento de tarefas desenvolvido para facilitar o cadastro de usuários e o acompanhamento de suas informações..
+Este é um sistema facilitar o cadastro de usuários e o acompanhamento de suas informações.
 
 ## Principais Recursos
 
